@@ -1,0 +1,55 @@
+<script>
+function copyToClipboard(text) {
+  var input = document.body.appendChild(document.createElement("input"));
+  input.value = text;
+  input.focus();
+  input.select();
+  document.execCommand('copy');
+  input.parentNode.removeChild(input);
+}
+</script>
+
+<script>
+// This file can hold up to 10 links (adding more will increase the amount of space taken up in your computer)
+// In order to edit the links you must use a code reader such as Microsoft VSC or Notepad++ as I said in the README.txt
+</script>
+
+<button onclick="copyToClipboard('Place link 1 here')">
+    <p id="text">Click here to copy link 1</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 2 here')">
+    <p id="text">Click here to copy link 2</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 3 here')">
+    <p id="text">Click here to copy link 3</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 4 here')">
+    <p id="text">Click here to copy link 4</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 5 here')">
+    <p id="text">Click here to copy link 5</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 6 here')">
+    <p id="text">Click here to copy link 6</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 7 here')">
+    <p id="text">Click here to copy link 7</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 8 here')">
+    <p id="text">Click here to copy link 8</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 9 here')">
+    <p id="text">Click here to copy link 9</p>
+</button>
+
+<button onclick="copyToClipboard('Place link 10 here')">
+    <p id="text">Click here to copy link 10</p>
+</button>
